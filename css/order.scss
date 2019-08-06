@@ -1,0 +1,125 @@
+@import "http://at.alicdn.com/t/font_1281755_24dqlfy73hv.css";
+@import "../css/normalize.css";
+@import "../css/footer.scss";
+
+
+@function px2rem($n) {
+    $rem: 75px;
+    @return $n / $rem+rem;
+}
+
+$primaryColor: rgb(240, 240, 240);
+$boxColor: #fff;
+$marBottom: px2rem(20px);
+
+html {
+    background-color: $primaryColor;
+}
+
+.order {
+    height: px2rem(2800px);
+}
+
+.order-list {
+    >li {
+        height: px2rem(312px);
+        background-color: #fff;
+        box-sizing: border-box;
+
+        margin: {
+            bottom: $marBottom;
+        }
+
+        padding: {
+            top: px2rem(28px);
+            left: px2rem(30px);
+        }
+
+        .ordercard-body {
+            height: px2rem(186px);
+
+            img {
+                width: px2rem(84px);
+                height: px2rem(84px);
+            }
+
+            .ordercard-content {
+                width: px2rem(600px);
+                display: inline-block;
+
+                padding: {
+                    right: px2rem(20px);
+                }
+
+                box-sizing: border-box;
+
+                .ordercard-head {
+                    height: px2rem(95px);
+
+                    .title {
+                        height: px2rem(48px);
+
+                        a {
+                            float: left;
+                            font-size: px2rem(32px);
+                        }
+
+                        .status {
+                            float: right;
+                            font-size: px2rem(27px);
+                        }
+                    }
+
+                    .datetime {
+                        font-size: px2rem(23px);
+                        color: rgb(150, 150, 150);
+                    }
+                }
+
+                .ordercard-detail {
+                    height: px2rem(91px);
+                    font-size: px2rem(26px);
+
+                    .detail {
+                        float: left;
+
+                        span {
+                            float: left;
+                        }
+
+                        span:first-child {
+                            display: inline-block;
+                            max-width: px2rem(320px);
+                            overflow: hidden;
+                            white-space: nowrap;
+                            text-overflow: ellipsis;
+                        }
+
+                        +.price {
+                            float: right;
+                            font-weight: bold;
+                        }
+                    }
+
+                }
+            }
+        }
+
+        .ordercard-bottom {
+            padding: px2rem(20px) px2rem(32px);
+            box-sizing: border-box;
+
+            button {
+                float: right;
+                width: px2rem(145px);
+                height: px2rem(55px);
+                padding: px2rem(10px) px2rem(20px);
+                font-size: px2rem(25px);
+                background-color: transparent;
+                color: #2395ff;
+                border: px2rem(1px) solid #2395ff;
+            }
+        }
+
+    }
+}

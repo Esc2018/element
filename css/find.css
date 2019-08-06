@@ -1,0 +1,199 @@
+@charset "UTF-8";
+@import "http://at.alicdn.com/t/font_1281755_1uerljqie11.css";
+@import url(../css/normalize.css);
+/* 底部 */
+.footer {
+  position: fixed;
+  z-index: 999;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  background-color: #fff; }
+
+.footer > .footer-box {
+  display: flex;
+  align-items: center; }
+
+.footer > .footer-box > a {
+  flex: 1;
+  padding: 2vw 6vw;
+  text-align: center;
+  font-size: 3.5vw;
+  color: #8e8e93; }
+
+.footer > .footer-box > a:first-of-type {
+  color: #0d87c4; }
+
+.footer > .footer-box .box-img {
+  width: 5.33vw;
+  height: 5.33vw;
+  margin-left: 3.5vw;
+  padding-bottom: 2vw; }
+
+.footer > .footer-box .box-img > i {
+  font-size: 6vw; }
+
+.backTop {
+  display: none;
+  position: fixed;
+  bottom: 20vw;
+  right: 4vw;
+  z-index: 999;
+  width: 10vw;
+  height: 10vw;
+  padding: 2vw;
+  box-sizing: border-box;
+  border-radius: 50%;
+  border: 0.2vw solid #ccc;
+  background-color: #fff; }
+
+.backTop > img {
+  position: absolute;
+  top: 2vw;
+  left: 2vw;
+  width: 60%;
+  height: 60%; }
+
+html {
+  background-color: #f0f0f0; }
+
+.wrapper .top {
+  margin-bottom: 0.2666666667rem;
+  background-color: #fff; }
+  .wrapper .top .list {
+    display: flex;
+    height: 4.2933333333rem; }
+    .wrapper .top .list > div {
+      flex: 1; }
+    .wrapper .top .list .one {
+      position: relative;
+      padding: 0.5866666667rem 0.2933333333rem 0.16rem 0.4266666667rem;
+      box-sizing: border-box;
+      border-right: 0.0133333333rem solid #dadada; }
+      .wrapper .top .list .one .content-wrapper {
+        width: 2.1333333333rem;
+        height: 3.5066666667rem;
+        font-size: 0.32rem;
+        color: #aaaaaa; }
+        .wrapper .top .list .one .content-wrapper p:first-child {
+          color: #ff9900;
+          font-size: 0.4666666667rem; }
+      .wrapper .top .list .one img {
+        position: absolute;
+        bottom: 0.1333333333rem;
+        right: 0.2rem;
+        width: 2rem;
+        height: 2rem; }
+    .wrapper .top .list .two a {
+      display: block;
+      width: 5rem;
+      height: 2.1333333333rem;
+      padding: 0.4rem 0.4rem;
+      box-sizing: border-box; }
+      .wrapper .top .list .two a .content-wrapper {
+        float: left;
+        width: 2.2933333333rem; }
+        .wrapper .top .list .two a .content-wrapper p {
+          line-height: 0.6666666667rem; }
+        .wrapper .top .list .two a .content-wrapper .title {
+          font-size: 0.44rem;
+          color: #1ba9e1; }
+        .wrapper .top .list .two a .content-wrapper .tips {
+          font-size: 0.3066666667rem;
+          color: #afafaf; }
+      .wrapper .top .list .two a img {
+        float: right;
+        width: 1.2rem;
+        height: 1.2rem; }
+    .wrapper .top .list .two .coupons {
+      display: block;
+      width: 5rem;
+      height: 2.1333333333rem;
+      padding: 0.4rem 0.4rem;
+      box-sizing: border-box; }
+      .wrapper .top .list .two .coupons .content-wrapper {
+        float: left;
+        width: 2.2933333333rem; }
+        .wrapper .top .list .two .coupons .content-wrapper p {
+          line-height: 0.6666666667rem; }
+        .wrapper .top .list .two .coupons .content-wrapper .title {
+          font-size: 0.44rem;
+          color: #ed6660; }
+        .wrapper .top .list .two .coupons .content-wrapper .tips {
+          font-size: 0.3066666667rem;
+          color: #afafaf; }
+      .wrapper .top .list .two .coupons img {
+        float: right;
+        width: 1.2rem;
+        height: 1.2rem; }
+.wrapper .limit {
+  height: 8.1466666667rem;
+  background-color: #fff; }
+  .wrapper .limit .activity-header {
+    position: relative;
+    height: 1.0933333333rem;
+    padding-top: 0.5333333333rem;
+    box-sizing: border-box;
+    font-size: 0.48rem;
+    text-align: center;
+    font-weight: bold;
+    letter-spacing: 0.0266666667rem; }
+    .wrapper .limit .activity-header span {
+      position: absolute;
+      width: 0.4rem;
+      height: 0.0266666667rem;
+      background: #000; }
+    .wrapper .limit .activity-header span:first-child {
+      top: 0.8666666667rem;
+      left: 2.9333333333rem; }
+    .wrapper .limit .activity-header span:last-child {
+      top: 0.8666666667rem;
+      left: 6.6666666667rem; }
+    .wrapper .limit .activity-header i.iconfont {
+      color: red;
+      font-size: 0.5333333333rem; }
+  .wrapper .limit .activity-sub-title {
+    text-align: center;
+    font-size: 0.3333333333rem;
+    line-height: 0.6rem;
+    color: #a5a5a5;
+    text-indent: 0.2666666667rem; }
+  .wrapper .limit .activity-body {
+    display: flex;
+    height: 5.16rem;
+    padding-top: 0.32rem;
+    padding-left: 0.4rem;
+    padding-bottom: 0.4rem;
+    box-sizing: border-box; }
+    .wrapper .limit .activity-body a {
+      position: relative;
+      flex: 1; }
+      .wrapper .limit .activity-body a .discount {
+        position: absolute;
+        top: 0rem;
+        left: 0rem;
+        padding: 0.0666666667rem;
+        font-size: 0.3333333333rem;
+        background-color: #4d4d4d;
+        color: #fff; }
+      .wrapper .limit .activity-body a img {
+        width: 2.9333333333rem;
+        height: 2.9333333333rem; }
+      .wrapper .limit .activity-body a .info {
+        height: 1.2rem;
+        font-size: 0.36rem; }
+        .wrapper .limit .activity-body a .info .food-name {
+          padding-bottom: 0.2666666667rem; }
+        .wrapper .limit .activity-body a .info .food-info {
+          font-size: 0.3333333333rem; }
+          .wrapper .limit .activity-body a .info .food-info span {
+            color: red; }
+          .wrapper .limit .activity-body a .info .food-info del {
+            color: #636363; }
+  .wrapper .limit .activity-more {
+    margin-top: 0.3333333333rem;
+    text-align: center;
+    font-size: 0.3333333333rem;
+    color: #969696; }
+
+/*# sourceMappingURL=find.css.map */

@@ -1,0 +1,161 @@
+@import "http://at.alicdn.com/t/font_1281755_24dqlfy73hv.css";
+@import "../css/normalize.css";
+@import "../css/footer.css";
+
+html {
+  background-color: #f0f0f0; }
+
+#mine {
+  height: 17.7866666667rem; }
+  #mine .info {
+    height: 2.9333333333rem;
+    background-image: linear-gradient(90deg, #0af, #0085ff);
+    padding: 0.6666666667rem 0.4rem;
+    box-sizing: border-box;
+    color: #fff; }
+    #mine .info .profile {
+      display: flex;
+      align-items: center; }
+      #mine .info .profile .portrait {
+        float: left;
+        width: 1.6rem;
+        height: 1.6rem;
+        border-radius: 50%;
+        background: url("../images/portrait.png") -0.36rem -0.36rem no-repeat;
+        background-size: 2.4rem 14rem; }
+      #mine .info .profile .portrait-sec {
+        float: left;
+        width: 6.8666666667rem;
+        height: 1.2666666667rem;
+        margin-top: 0.1333333333rem;
+        margin-left: 0.3333333333rem;
+        font-size: 0.3333333333rem; }
+        #mine .info .profile .portrait-sec p:first-child {
+          font-size: 0.5333333333rem;
+          margin: 0; }
+      #mine .info .profile .portrait-thd {
+        float: left;
+        width: 0.2666666667rem;
+        height: 0.5333333333rem;
+        font-size: 0.5333333333rem; }
+  #mine .maininfo {
+    display: flex;
+    height: 2.24rem;
+    font-size: 0.3333333333rem;
+    margin-bottom: 0.2666666667rem;
+    padding: 0.5333333333rem 0;
+    box-sizing: border-box;
+    background-color: #fff; }
+    #mine .maininfo a {
+      flex: 1;
+      text-align: center; }
+      #mine .maininfo a p:first-child {
+        color: red;
+        font-size: 0.4666666667rem; }
+        #mine .maininfo a p:first-child span:first-child {
+          font-size: 0.6666666667rem; }
+      #mine .maininfo a + a > p:first-child {
+        color: green; }
+    #mine .maininfo a:first-child {
+      border-right: 1px solid #ccc; }
+  #mine .profile-1reTe {
+    height: 1.2133333333rem;
+    line-height: 1.2133333333rem;
+    padding-left: 0.4rem;
+    margin-bottom: 0.2666666667rem;
+    background-color: #fff; }
+    #mine .profile-1reTe a {
+      display: block;
+      height: 1.2133333333rem;
+      line-height: 1.2133333333rem; }
+      #mine .profile-1reTe a .ico {
+        position: relative;
+        float: left;
+        width: 0.6666666667rem;
+        height: 0.6666666667rem; }
+        #mine .profile-1reTe a .ico i {
+          position: absolute;
+          top: 0px;
+          left: -0.1066666667rem;
+          width: 0.6666666667rem;
+          height: 0.6666666667rem;
+          float: left;
+          font-size: 0.6666666667rem;
+          color: #006dd3;
+          text-align: left; }
+      #mine .profile-1reTe a .loc {
+        width: 8.5333333333rem;
+        float: left;
+        font-size: 0.4rem; }
+        #mine .profile-1reTe a .loc > span {
+          float: right; }
+  #mine .profile-2reTe {
+    height: 2.4266666667rem;
+    line-height: 2.4266666667rem;
+    padding-left: 0.4rem;
+    margin-bottom: 0.2666666667rem;
+    background-color: #fff; }
+    #mine .profile-2reTe a {
+      display: block;
+      height: 1.2133333333rem;
+      line-height: 1.2133333333rem; }
+      #mine .profile-2reTe a .ico {
+        position: relative;
+        float: left;
+        width: 0.6666666667rem;
+        height: 0.6666666667rem; }
+        #mine .profile-2reTe a .ico i {
+          position: absolute;
+          top: 0px;
+          left: 0rem;
+          width: 0.6666666667rem;
+          height: 0.6666666667rem;
+          float: left;
+          font-size: 0.4666666667rem;
+          color: #006dd3;
+          text-align: left; }
+      #mine .profile-2reTe a .loc {
+        width: 8.5333333333rem;
+        float: left;
+        font-size: 0.4rem; }
+        #mine .profile-2reTe a .loc > span {
+          float: right; }
+  #mine .profile-3reTe {
+    height: 3.6266666667rem;
+    line-height: 3.6266666667rem;
+    padding-left: 0.4rem;
+    margin-bottom: 0.2666666667rem;
+    background-color: #fff; }
+    #mine .profile-3reTe a {
+      display: block;
+      height: 1.2133333333rem;
+      line-height: 1.2133333333rem; }
+      #mine .profile-3reTe a .ico {
+        position: relative;
+        float: left;
+        width: 0.6666666667rem;
+        height: 0.6666666667rem; }
+        #mine .profile-3reTe a .ico i {
+          position: absolute;
+          top: 0px;
+          left: 0rem;
+          width: 0.6666666667rem;
+          height: 0.6666666667rem;
+          float: left;
+          font-size: 0.4666666667rem;
+          color: #006dd3;
+          text-align: left; }
+      #mine .profile-3reTe a .loc {
+        width: 8.5333333333rem;
+        float: left;
+        font-size: 0.4rem; }
+        #mine .profile-3reTe a .loc > span {
+          float: right; }
+  #mine .profile-2dyk {
+    height: 0.48rem;
+    text-align: center; }
+    #mine .profile-2dyk a {
+      color: #0085ff;
+      font-size: 0.4rem; }
+
+/*# sourceMappingURL=mine.css.map */

@@ -1,0 +1,207 @@
+@import "http://at.alicdn.com/t/font_1281755_1uerljqie11.css";
+@import "../css/normalize.css";
+@import "../css/footer.scss";
+
+
+@function px2rem($n) {
+    $rem: 75px;
+    @return $n / $rem+rem;
+}
+
+@mixin show($color) {
+    display: block;
+    width: px2rem(375px);
+    height: px2rem(160px);
+    padding: px2rem(30px) px2rem(30px);
+    box-sizing: border-box;
+
+    .content-wrapper {
+        float: left;
+        width: px2rem(172px);
+
+        p {
+            line-height: px2rem(50px);
+        }
+
+        .title {
+            font-size: px2rem(33px);
+            color: $color;
+        }
+
+
+        .tips {
+            font-size: px2rem(23px);
+            color: rgb(175, 175, 175);
+        }
+
+    }
+
+    img {
+        float: right;
+        width: px2rem(90px);
+        height: px2rem(90px);
+    }
+}
+
+@mixin position($x, $y) {
+    top: px2rem($x);
+    left: px2rem($y);
+}
+
+
+$primaryColor: rgb(240, 240, 240);
+$boxColor: #fff;
+$marBottom: px2rem(20px);
+
+html {
+    background-color: $primaryColor;
+}
+
+.wrapper {
+    .top {
+        margin-bottom: $marBottom;
+        background-color: $boxColor;
+
+        .list {
+            display: flex;
+            height: px2rem(322px);
+
+            >div {
+                flex: 1;
+            }
+
+            .one {
+                position: relative;
+                padding: px2rem(44px) px2rem(22px) px2rem(12px) px2rem(32px);
+                box-sizing: border-box;
+                border-right: px2rem(1px) solid rgb(218, 218, 218);
+
+                .content-wrapper {
+                    width: px2rem(160px);
+                    height: px2rem(263px);
+                    font-size: px2rem(24px);
+                    color: rgb(170, 170, 170);
+
+                    p:first-child {
+                        color: rgb(255, 153, 0);
+                        font-size: px2rem(35px);
+                    }
+                }
+
+                img {
+                    position: absolute;
+                    bottom: px2rem(10px);
+                    right: px2rem(15px);
+                    width: px2rem(150px);
+                    height: px2rem(150px);
+                }
+            }
+
+            .two {
+                a {
+                    @include show(rgb(27, 169, 225));
+                }
+
+                .coupons {
+                    @include show(rgb(237, 102, 96));
+                }
+            }
+        }
+    }
+
+    .limit {
+        height: px2rem(611px);
+        background-color: $boxColor;
+
+        .activity-header {
+            position: relative;
+            height: px2rem(82px);
+            padding-top: px2rem(40px);
+            box-sizing: border-box;
+            font-size: px2rem(36px);
+            text-align: center;
+            font-weight: bold;
+            letter-spacing: px2rem(2px);
+            span {
+                position: absolute;
+                width: px2rem(30px);
+                height: px2rem(2px);
+                background: #000;
+            }
+
+            span:first-child {
+                @include position(65px, 220px);
+            }
+
+            span:last-child {
+                @include position(65px, 500px);
+            }
+
+            i.iconfont {
+                color: red;
+                font-size: px2rem(40px);
+            }
+        }
+
+        .activity-sub-title {
+            text-align: center;
+            font-size: px2rem(25px);
+            line-height: px2rem(45px);
+            color: rgb(165, 165, 165);
+            text-indent: px2rem(20px);
+        }
+
+        .activity-body{
+            display: flex;
+            height: px2rem(387px);
+            padding: {
+                top: px2rem(24px);
+                left: px2rem(30px);
+                bottom: px2rem(30px);
+            }
+            box-sizing: border-box;
+            a{
+                position: relative;
+                flex: 1;
+                .discount{
+                    position: absolute;
+                    top: px2rem(0px);
+                    left: px2rem(0px);
+                    padding: px2rem(5px);
+                    font-size: px2rem(25px);
+                    background-color: rgb(77, 77, 77);
+                    color: #fff;
+                }
+                img{
+                    width: px2rem(220px);
+                    height: px2rem(220px);
+                }
+                .info{
+                    height: px2rem(90px);
+                    font-size: px2rem(27px);
+                    .food-name{
+                        padding-bottom: px2rem(20px);
+                    }
+                    .food-info{
+                        font-size: px2rem(25px);
+                        span{
+                            color: red;
+                        }
+                        del{
+                            color: rgb(99, 99, 99);
+                        }
+                    }
+                }
+            }
+        }
+
+        .activity-more{
+            margin-top: px2rem(25px);
+            text-align: center;
+            font-size: px2rem(25px);
+            color: rgb(150, 150, 150);
+        }
+    }
+
+
+}

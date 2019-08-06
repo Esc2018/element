@@ -1,0 +1,180 @@
+@import "http://at.alicdn.com/t/font_1281755_24dqlfy73hv.css";
+@import "../css/normalize.css";
+@import "../css/footer.scss";
+
+
+@function px2rem($n) {
+    $rem: 75px;
+    @return $n / $rem+rem;
+}
+
+@mixin list($height, $aHeight, $size, $dis) {
+    height: px2rem($height);
+    line-height: px2rem($height);
+    padding-left: px2rem(30px);
+    margin-bottom: $marBottom;
+    background-color: $boxColor;
+
+    a {
+        display: block;
+        height: px2rem($aHeight);
+        line-height: px2rem($aHeight);
+
+        .ico {
+            position: relative;
+            float: left;
+            width: px2rem(50px);
+            height: px2rem(50px);
+
+            i {
+                position: absolute;
+                top: 0px;
+                left: px2rem($dis);
+                width: px2rem(50px);
+                height: px2rem(50px);
+                float: left;
+                font-size: px2rem($size);
+                color: #006dd3;
+                text-align: left;
+            }
+        }
+
+        .loc {
+            width: px2rem(640px);
+            float: left;
+            font-size: px2rem(30px);
+
+            >span {
+                float: right;
+            }
+        }
+    }
+
+
+
+
+}
+
+$primaryColor: rgb(240, 240, 240);
+$boxColor: #fff;
+$marBottom: px2rem(20px);
+
+html {
+    background-color: $primaryColor;
+}
+
+#mine {
+    height: px2rem(1334px);
+
+    .info {
+        height: px2rem(220px);
+        background-image: linear-gradient(90deg, #0af, #0085ff);
+        padding: px2rem(50px) px2rem(30px);
+        box-sizing: border-box;
+        color: #fff;
+
+        .profile {
+            display: flex;
+            align-items: center;
+
+            .portrait {
+                float: left;
+                width: px2rem(120px);
+                height: px2rem(120px);
+                border-radius: 50%;
+                // background: url("../images/portrait.png") no-repeat px2rem(-27px) px2rem(-27px);
+                background: url("../images/portrait.png") px2rem(-27px) px2rem(-27px) no-repeat;
+                background-size: px2rem(180px) px2rem(1050px);
+            }
+
+            .portrait-sec {
+                float: left;
+                width: px2rem(515px);
+                height: px2rem(95px);
+
+                margin: {
+                    top: px2rem(10px);
+                    left: px2rem(25px);
+                }
+
+                font-size: px2rem(25px);
+
+                p:first-child {
+                    font-size: px2rem(40px);
+                    margin: 0;
+                }
+            }
+
+            .portrait-thd {
+                float: left;
+                width: px2rem(20px);
+                height: px2rem(40px);
+                font-size: px2rem(40px);
+            }
+        }
+
+
+    }
+
+    .maininfo {
+        display: flex;
+        height: px2rem(168px);
+        font-size: px2rem(25px);
+        margin-bottom: $marBottom;
+        padding: px2rem(40px) 0;
+        box-sizing: border-box;
+        background-color: $boxColor;
+
+        a {
+            flex: 1;
+            text-align: center;
+
+            p:first-child {
+                color: red;
+                font-size: px2rem(35px);
+
+                span:first-child {
+                    font-size: px2rem(50px);
+                }
+            }
+
+            +a {
+                >p:first-child {
+                    color: green;
+                }
+
+            }
+        }
+
+        a:first-child {
+            border-right: 1px solid #ccc;
+        }
+    }
+
+    // 收货地址
+    .profile-1reTe {
+        @include list(91px, 91px, 50px, -8px);
+    }
+
+    // 金币商城
+    .profile-2reTe {
+        @include list(182px, 91px, 35px, 0px);
+    }
+
+    // 我的客服
+    .profile-3reTe {
+        @include list(272px, 91px, 35px, 0px);
+    }
+
+    // 隐私政策
+    .profile-2dyk {
+        height: px2rem(36px);
+        text-align: center;
+
+        a {
+            color: #0085ff;
+            font-size: px2rem(30px);
+        }
+    }
+
+}

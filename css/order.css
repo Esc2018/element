@@ -1,0 +1,122 @@
+@charset "UTF-8";
+@import "http://at.alicdn.com/t/font_1281755_24dqlfy73hv.css";
+@import url(../css/normalize.css);
+/* 底部 */
+.footer {
+  position: fixed;
+  z-index: 999;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  background-color: #fff; }
+
+.footer > .footer-box {
+  display: flex;
+  align-items: center; }
+
+.footer > .footer-box > a {
+  flex: 1;
+  padding: 2vw 6vw;
+  text-align: center;
+  font-size: 3.5vw;
+  color: #8e8e93; }
+
+.footer > .footer-box > a:first-of-type {
+  color: #0d87c4; }
+
+.footer > .footer-box .box-img {
+  width: 5.33vw;
+  height: 5.33vw;
+  margin-left: 3.5vw;
+  padding-bottom: 2vw; }
+
+.footer > .footer-box .box-img > i {
+  font-size: 6vw; }
+
+.backTop {
+  display: none;
+  position: fixed;
+  bottom: 20vw;
+  right: 4vw;
+  z-index: 999;
+  width: 10vw;
+  height: 10vw;
+  padding: 2vw;
+  box-sizing: border-box;
+  border-radius: 50%;
+  border: 0.2vw solid #ccc;
+  background-color: #fff; }
+
+.backTop > img {
+  position: absolute;
+  top: 2vw;
+  left: 2vw;
+  width: 60%;
+  height: 60%; }
+
+html {
+  background-color: #f0f0f0; }
+
+.order {
+  height: 37.3333333333rem; }
+
+.order-list > li {
+  height: 4.16rem;
+  background-color: #fff;
+  box-sizing: border-box;
+  margin-bottom: 0.2666666667rem;
+  padding-top: 0.3733333333rem;
+  padding-left: 0.4rem; }
+  .order-list > li .ordercard-body {
+    height: 2.48rem; }
+    .order-list > li .ordercard-body img {
+      width: 1.12rem;
+      height: 1.12rem; }
+    .order-list > li .ordercard-body .ordercard-content {
+      width: 8rem;
+      display: inline-block;
+      padding-right: 0.2666666667rem;
+      box-sizing: border-box; }
+      .order-list > li .ordercard-body .ordercard-content .ordercard-head {
+        height: 1.2666666667rem; }
+        .order-list > li .ordercard-body .ordercard-content .ordercard-head .title {
+          height: 0.64rem; }
+          .order-list > li .ordercard-body .ordercard-content .ordercard-head .title a {
+            float: left;
+            font-size: 0.4266666667rem; }
+          .order-list > li .ordercard-body .ordercard-content .ordercard-head .title .status {
+            float: right;
+            font-size: 0.36rem; }
+        .order-list > li .ordercard-body .ordercard-content .ordercard-head .datetime {
+          font-size: 0.3066666667rem;
+          color: #969696; }
+      .order-list > li .ordercard-body .ordercard-content .ordercard-detail {
+        height: 1.2133333333rem;
+        font-size: 0.3466666667rem; }
+        .order-list > li .ordercard-body .ordercard-content .ordercard-detail .detail {
+          float: left; }
+          .order-list > li .ordercard-body .ordercard-content .ordercard-detail .detail span {
+            float: left; }
+          .order-list > li .ordercard-body .ordercard-content .ordercard-detail .detail span:first-child {
+            display: inline-block;
+            max-width: 4.2666666667rem;
+            overflow: hidden;
+            white-space: nowrap;
+            text-overflow: ellipsis; }
+          .order-list > li .ordercard-body .ordercard-content .ordercard-detail .detail + .price {
+            float: right;
+            font-weight: bold; }
+  .order-list > li .ordercard-bottom {
+    padding: 0.2666666667rem 0.4266666667rem;
+    box-sizing: border-box; }
+    .order-list > li .ordercard-bottom button {
+      float: right;
+      width: 1.9333333333rem;
+      height: 0.7333333333rem;
+      padding: 0.1333333333rem 0.2666666667rem;
+      font-size: 0.3333333333rem;
+      background-color: transparent;
+      color: #2395ff;
+      border: 0.0133333333rem solid #2395ff; }
+
+/*# sourceMappingURL=order.css.map */
