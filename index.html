@@ -10,6 +10,7 @@
     <link rel="stylesheet" href="./css/index.css">
     <link rel="stylesheet" href="./css/footer.css">
     <link rel="stylesheet" href="https://at.alicdn.com/t/font_1281755_kk1on4903g.css">
+    <script src="./js/renderindex.js"></script>
     <!-- 引入swiper插件 -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/3.4.2/css/swiper.css">
     <script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/3.4.2/js/swiper.js"></script>
@@ -40,92 +41,7 @@
             <!-- 轮播图 -->
             <div class="swiper-container">
                 <div class="swiper-wrapper">
-                    <div class="swiper-slide">
-                        <ul>
-                            <li>
-                                <div class="food-img">
-                                    <img src="./images/foodList/1.jpeg" alt="">
-                                </div>
-                                <span>美食</span>
-                            </li>
-                            <li>
-                                <div class="food-img">
-                                    <img src="./images/foodList/2.jpeg" alt="">
-                                </div>
-                                <span>夜宵</span>
-                            </li>
-                            <li>
-                                <div class="food-img">
-                                    <img src="./images/foodList/3.jpeg" alt="">
-                                </div>
-                                <span>商品便利</span>
-                            </li>
-                            <li>
-                                <div class="food-img">
-                                    <img src="./images/foodList/4.jpeg" alt="">
-                                </div>
-                                <span>水果</span>
-                            </li>
-                            <li>
-                                <div class="food-img">
-                                    <img src="./images/foodList/5.jpeg" alt="">
-                                </div>
-                                <span>医药健康</span>
-                            </li>
-                            <li>
-                                <div class="food-img">
-                                    <img src="./images/foodList/6.jpeg" alt="">
-                                </div>
-                                <span>浪漫鲜花</span>
-                            </li>
-                            <li>
-                                <div class="food-img">
-                                    <img src="./images/foodList/7.jpeg" alt="">
-                                </div>
-                                <span>汉堡披萨</span>
-                            </li>
-                            <li>
-                                <div class="food-img">
-                                    <img src="./images/foodList/8.jpeg" alt="">
-                                </div>
-                                <span>厨房生鲜</span>
-                            </li>
-                            <li>
-                                <div class="food-img">
-                                    <img src="./images/foodList/9.jpeg" alt="">
-                                </div>
-                                <span>甜品饮品</span>
-                            </li>
-                            <li>
-                                <div class="food-img">
-                                    <img src="./images/foodList/10.jpeg" alt="">
-                                </div>
-                                <span>素食简餐</span>
-                            </li>
-                        </ul>
-                    </div>
-                    <div class="swiper-slide">
-                        <ul>
-                            <li>
-                                <div class="food-img">
-                                    <img src="./images/foodList/11.jpeg" alt="">
-                                </div>
-                                <span>地方小吃</span>
-                            </li>
-                            <li>
-                                <div class="food-img">
-                                    <img src="./images/foodList/12.jpeg" alt="">
-                                </div>
-                                <span>大牌惠吃</span>
-                            </li>
-                            <li>
-                                <div class="food-img">
-                                    <img src="./images/foodList/13.jpeg" alt="">
-                                </div>
-                                <span>速食简餐</span>
-                            </li>
-                        </ul>
-                    </div>
+                   
                 </div>
                 <div class="swiper-pagination"></div>
             </div>
@@ -448,19 +364,16 @@
 
 
     <script src="./js/index.js"></script>
-
+    
     <script>
-        var mySwiper = new Swiper('.swiper-container', {
-            loop: true,
-            pagination: '.swiper-pagination',
-            paginationClickable: true,
-        })
+        
         var banner = new Swiper('.banner-container', {
             loop: true,
             autoplay: 4000,
             autoplayDisableOnInteraction: false,
         })
     </script>
+    
 </body>
 
 </html>
