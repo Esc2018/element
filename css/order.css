@@ -58,7 +58,7 @@ html {
   background-color: #f0f0f0; }
 
 .order {
-  height: 37.3333333333rem; }
+  height: 36.9333333333rem; }
 
 .order-list > li {
   height: 4.16rem;
@@ -114,6 +114,7 @@ html {
       width: 1.9333333333rem;
       height: 0.7333333333rem;
       padding: 0.1333333333rem 0.2666666667rem;
+      margin-left: 0.1333333333rem;
       font-size: 0.3333333333rem;
       background-color: transparent;
       color: #2395ff;
