@@ -1,13 +1,15 @@
 window.onresize = resetSize;
 window.onload = resetSize;
+// resetSize()
 
 function resetSize() {
     let w = window.innerWidth
         || document.documentElement.clientWidth
         || document.body.clientWidth;
 
+    // console.log(w)
     let explorer = window.navigator.userAgent.toLowerCase();
-    console.log(explorer)
+    // console.log(explorer)
 
     // if (explorer.includes("edge")) {
     //     console.log("yes")

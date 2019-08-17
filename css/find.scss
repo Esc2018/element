@@ -5,7 +5,7 @@
 
 @function px2rem($n) {
     $rem: 75px;
-    @return $n / $rem+rem;
+    @return $n / $rem + rem;
 }
 
 @mixin show($color) {
@@ -58,6 +58,7 @@ html {
 }
 
 .wrapper {
+    width: px2rem(750px);
     .top {
         margin-bottom: $marBottom;
         background-color: $boxColor;
@@ -122,6 +123,7 @@ html {
             text-align: center;
             font-weight: bold;
             letter-spacing: px2rem(2px);
+
             span {
                 position: absolute;
                 width: px2rem(30px);
@@ -151,19 +153,23 @@ html {
             text-indent: px2rem(20px);
         }
 
-        .activity-body{
+        .activity-body {
             display: flex;
             height: px2rem(387px);
+
             padding: {
                 top: px2rem(24px);
                 left: px2rem(30px);
                 bottom: px2rem(30px);
             }
+
             box-sizing: border-box;
-            a{
+
+            a {
                 position: relative;
                 flex: 1;
-                .discount{
+
+                .discount {
                     position: absolute;
                     top: px2rem(0px);
                     left: px2rem(0px);
@@ -172,22 +178,28 @@ html {
                     background-color: rgb(77, 77, 77);
                     color: #fff;
                 }
-                img{
+
+                img {
                     width: px2rem(220px);
                     height: px2rem(220px);
                 }
-                .info{
+
+                .info {
                     height: px2rem(90px);
                     font-size: px2rem(27px);
-                    .food-name{
+
+                    .food-name {
                         padding-bottom: px2rem(20px);
                     }
-                    .food-info{
+
+                    .food-info {
                         font-size: px2rem(25px);
-                        span{
+
+                        span {
                             color: red;
                         }
-                        del{
+
+                        del {
                             color: rgb(99, 99, 99);
                         }
                     }
@@ -195,7 +207,7 @@ html {
             }
         }
 
-        .activity-more{
+        .activity-more {
             margin-top: px2rem(25px);
             text-align: center;
             font-size: px2rem(25px);
