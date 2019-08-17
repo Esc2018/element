@@ -4,10 +4,10 @@
 
 打开index.html(背景色是google的插件,比较养眼，原本是白色的  Dark Reader):
 
-![1566047209856](C:\Users\15468\AppData\Roaming\Typora\typora-user-images\1566047209856.png)
+![git push origin master1566047209856](https://github.com/Esc2018/element/blob/master/showGithub/1566047209856.png)
 
-![1566047223741](C:\Users\15468\AppData\Roaming\Typora\typora-user-images\1566047223741.png)
+![git push origin master1566047223741](https://github.com/Esc2018/element/blob/master/showGithub/1566047209856.png)
 
-![1566047243750](C:\Users\15468\AppData\Roaming\Typora\typora-user-images\1566047243750.png)
+![git push origin master1566047243750](https://github.com/Esc2018/element/blob/master/showGithub/1566047243750.png)
 
-![1566047328477](C:\Users\15468\AppData\Roaming\Typora\typora-user-images\1566047328477.png)
+![git push origin master1566047328477](https://github.com/Esc2018/element/blob/master/showGithub/1566047328477.png)
